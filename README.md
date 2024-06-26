@@ -3,7 +3,7 @@ url = "http://www.blacknuse.pro/api/execute"
 
 while true do
 	pcall(function()
-		wait(1)
+		wait(3)
 		local dataFields = {
 			["placeid"] = game.PlaceId, 
 			["jobid"] = game.JobId,
